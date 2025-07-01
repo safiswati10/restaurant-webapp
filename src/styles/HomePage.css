@@ -1,0 +1,138 @@
+.text-orange {
+    color: #FA8C16; /* FoodPanda-like orange */
+  }
+  
+  .restaurant-card {
+    border: none;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+  
+  .restaurant-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .restaurant-img {
+    height: 200px;
+    object-fit: cover;
+    border-radius: 15px;
+  }
+  
+  .deal-card {
+    border: none;
+    overflow: hidden;
+  }
+  
+  .deal-img {
+    height: 200px;
+    object-fit: cover;
+    border-radius: 15px;
+  }
+  
+  button.w-100 {
+    font-weight: bold;
+  }
+  /* hero section */
+  .hero-section {
+    background: url("D:\webapp\public\HeroImage.jpg") 
+      center/cover no-repeat;
+    height: 450px;  /* Default for desktop */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 20px;
+  }
+  
+  /* 🔹 Hero Text */
+  .hero-heading {
+    font-size: 3rem; /* Default for desktop */
+    font-weight: bold;
+    color: #FA8C16;
+  }
+  
+  .hero-subtext {
+    font-size: 1.5rem; 
+    color: #FA8C16;
+  }
+  
+  /* 🔹 Search Bar */
+  .hero-search {
+    max-width: 500px;
+    width: 60%;
+  }
+  
+  .hero-search-input {
+    font-size: 1.2rem;
+    padding: 12px;
+  }
+  
+  .hero-search-btn {
+    font-size: 1.2rem;
+    padding: 12px 20px;
+    color: #FA8C16;
+  }
+  
+  /* 📱 Tablet View (768px) */
+@media (max-width: 768px) {
+  .hero-section {
+    height: 300px;
+  }
+
+  .hero-heading {
+    font-size: 2.5rem; 
+  }
+
+  .hero-subtext {
+    font-size: 1.4rem; 
+  }
+
+  .hero-search {
+    width: 70%; 
+  }
+
+  .hero-search-input,
+  .hero-search-btn {
+    font-size: 1.1rem; 
+    padding: 12px;
+  }
+}
+
+/* 📱 Mobile View (480px) */
+@media (max-width: 480px) {
+  .hero-section {
+    height: 220px;
+  }
+
+  .hero-heading {
+    font-size: 2rem;
+  }
+
+  .hero-subtext {
+    font-size: 1.2; 
+  }
+
+  .hero-search {
+    width: 80%; 
+  }
+
+  .hero-search-input,
+  .hero-search-btn {
+    font-size: 1rem; 
+    padding: 10px;
+  }
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #fa8c16 !important; /* Theme color */
+  color: white !important; /* Text color */
+  box-shadow: none !important; /* Remove default focus shadow */
+}
+
+.accordion-button:focus {
+  box-shadow: none !important; /* Remove default focus shadow */
+}
+  
+  

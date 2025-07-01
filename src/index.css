@@ -11,10 +11,7 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-.hero-section {
-  background: url("D:\ResturantWebApp\Restaurant\web\src\Hero.jpeg?width=2000") center/cover no-repeat;
-  height: 450px;
-  display: flex;
-  justify-content: center;
+:root {
+  --swiper-theme-color: #FA8C16 !important;
 }
 

@@ -1,0 +1,59 @@
+/* Style Popular Restaurants Heading */
+.heading-orange {
+    color: #FA8C16;
+  }
+  
+  /* Ensure pagination is positioned correctly */
+.custom-pagination {
+    position: relative !important;
+    margin-top: 20px; /* Adjust space between slider and pagination */
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* Swiper pagination dots styling */
+  .custom-pagination .swiper-pagination-bullet {
+    background-color: #FA8C16 !important;
+    width: 10px;
+    height: 10px;
+    opacity: 1;
+    margin: 0 5px; /* Space between dots */
+  }
+  
+  .custom-pagination .swiper-pagination-bullet-active {
+    background-color: #FA8C16 !important;
+    width: 12px;
+    height: 12px;
+  }
+  .image-container {
+    width: 100%;
+    height: 200px; /* Adjust height as needed */
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .card-title {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.image-container {
+  height: 200px; /* Fixed height */
+}
+.image-container img {
+  height: 100%;
+  object-fit: cover;
+}
+button {
+  white-space: nowrap;
+}
+.restaurant-card {
+  min-height: 320px; /* Adjust based on content */
+}

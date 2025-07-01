@@ -1,12 +1,13 @@
 import React from "react";
 
-const   ListYourResturant = () => {
+const ListYourRestaurant = () => {
   return (
     <div>
-      <h1>ListYourResturant</h1>
-      <p>List of all Resturant.</p>
+      <h1>List Your Restaurant</h1>
+      <p>Join our platform and showcase your restaurant to thousands of customers.</p>
+      <button>Register Now</button>
     </div>
   );
 };
 
-export default ListYourResturant;
+export default ListYourRestaurant;

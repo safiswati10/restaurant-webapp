@@ -1,0 +1,26 @@
+
+  
+  /* Search Bar */
+  .search-bar input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+  }
+  
+  /* Restaurant Cards */
+  .restaurant-card {
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .restaurant-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .restaurant-img {
+    height: 200px;
+    object-fit: cover;
+  }
+  
