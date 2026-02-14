@@ -35,7 +35,7 @@
   }
   /* hero section */
   .hero-section {
-    background: url("D:\restaurant-webapp\public\HeroImage.jpg") 
+    background: url("") 
       center/cover no-repeat;
     height: 450px;  /* Default for desktop */
     display: flex;
