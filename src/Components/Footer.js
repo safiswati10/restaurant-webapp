@@ -83,13 +83,13 @@ const Footer = () => {
             <h5>Follow Us</h5>
             <p>Stay updated with our latest offers:</p>
             <div>
-              <a href="#" style={{ color: "white", marginRight: "10px" }}>
+              <a href="https://facebook.com" style={{ color: "white", marginRight: "10px" }}>
                 Facebook
               </a>
-              <a href="#" style={{ color: "white", marginRight: "10px" }}>
+              <a href="https://instagram.com" style={{ color: "white", marginRight: "10px" }}>
                 Instagram
               </a>
-              <a href="#" style={{ color: "white" }}>
+              <a href="https://x.com" style={{ color: "white" }}>
                 Twitter
               </a>
             </div>
