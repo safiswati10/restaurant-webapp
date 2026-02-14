@@ -35,7 +35,7 @@
   }
   /* hero section */
   .hero-section {
-    background: url("") 
+    background: url("../../public/HeroImage.jpg" )
       center/cover no-repeat;
     height: 450px;  /* Default for desktop */
     display: flex;
